@@ -32,9 +32,8 @@
                 <span></span>
                 <span></span>
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
                     <?php
-                        include('includes/lienspages.inc.php');
+                        include('../includes/lienspages.inc.php');
                     ?>
                 </ul>
             </nav>

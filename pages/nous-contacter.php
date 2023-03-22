@@ -35,7 +35,6 @@
                 <span></span>
                 <span></span>
                 <ul>
-                    
                     <?php
                         include('../includes/lienspages.inc.php');
                     ?>

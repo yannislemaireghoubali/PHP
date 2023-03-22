@@ -36,9 +36,8 @@
                 <span></span>
                 <ul>
                     
-                    <li><a href="nous-contacter.html">Nous contacter</a></li>
                     <?php
-                        include('includes/lienspages.inc.php');
+                        include('../includes/lienspages.inc.php');
                     ?>
                 </ul>
             </nav>

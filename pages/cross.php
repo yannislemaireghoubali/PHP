@@ -34,7 +34,6 @@
                 <span></span>
                 <ul>
                     
-                    <li><a href="cross.html">Cross</a></li>
                     <?php
                         include('../includes/lienspages.inc.php');
                     ?>

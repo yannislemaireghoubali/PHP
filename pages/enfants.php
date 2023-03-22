@@ -35,13 +35,8 @@
                 <span></span>
                 <ul>
                     <?php
-                        include('includes/lienspages.inc.php');
+                        include('../includes/lienspages.inc.php');
                     ?>
-                    <li><a href="route.html">Route</a></li>
-                    <li><a href="cross.html">Cross</a></li>
-                    <li><a href="piste.html">Piste</a></li>
-                    <li><a href="enfants.html">Enfants</a></li>
-                    <li><a href="nous-contacter.html">Nous contacter</a></li>
                 </ul>
             </nav>
         </header>

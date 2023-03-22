@@ -33,9 +33,8 @@
                 <span></span>
                 <span></span>
                 <ul>
-                    <li><a href="piste.html">Piste</a></li>
                     <?php
-                        include('includes/lienspages.inc.php');
+                        include('../includes/lienspages.inc.php');
                     ?>
                 </ul>
             </nav>

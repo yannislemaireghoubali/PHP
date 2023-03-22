@@ -18,28 +18,9 @@
         <link rel="icon" href="../favicon.ico">
     </head>
     <body>
-        <header>
-            <picture>
-                <source media="(max-width: 576px)" srcset="../images/banniere_small.png">
-                <source srcset="../images/banniere.png">
-                <img src="../images/banniere.png" alt="Nolark : Protect your minds ! Cette bannière montre un 
-                     coucher de soleil avec une femme embrassant un homme réalisant en stoppie sur sa
-                     moto.">
-                <!-- Image basée sur la création originale de ShiftGraphiX sur Pixabay : 
-                    https://pixabay.com/fr/couple-stoppie-sportive-vélomoteur-3156613/ -->
-            </picture>
-            <nav>
-                <input type="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul>
-                    <?php
-                        include('../includes/lienspages.inc.php');
-                    ?>
-                </ul>
-            </nav>
-        </header>
+        <?php
+            include('../includes/lienspages.inc.php');
+        ?>
         <section id="video">
             <article>
                 <img src="../images/attention.png" alt="Post-It : Penser à rentrer en vie">
@@ -547,5 +528,8 @@
                 <img class="classement classement25" src="../images/casques/etoiles.gif" alt="Classement 2,5 sur 5">
             </article>
         </section>
+        <?php
+            include('../includes/footer.inc.php');
+        ?>
     </body>
 </html>

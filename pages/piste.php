@@ -33,12 +33,10 @@
                 <span></span>
                 <span></span>
                 <ul>
-                    <li><a href="../index.html">Accueil</a></li>
-                    <li><a href="route.html">Route</a></li>
-                    <li><a href="cross.html">Cross</a></li>
                     <li><a href="piste.html">Piste</a></li>
-                    <li><a href="enfants.html">Enfants</a></li>
-                    <li><a href="nous-contacter.html">Nous contacter</a></li>
+                    <?php
+                        include('includes/lienspages.inc.php');
+                    ?>
                 </ul>
             </nav>
         </header>

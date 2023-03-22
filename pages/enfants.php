@@ -34,7 +34,9 @@
                 <span></span>
                 <span></span>
                 <ul>
-                    <li><a href="../index.html">Accueil</a></li>
+                    <?php
+                        include('includes/lienspages.inc.php');
+                    ?>
                     <li><a href="route.html">Route</a></li>
                     <li><a href="cross.html">Cross</a></li>
                     <li><a href="piste.html">Piste</a></li>

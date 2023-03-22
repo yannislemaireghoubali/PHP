@@ -36,7 +36,7 @@
                     
                     <li><a href="cross.html">Cross</a></li>
                     <?php
-                        include('includes/lienspages.inc.php');
+                        include('../includes/lienspages.inc.php');
                     ?>
                 </ul>
             </nav>
@@ -117,8 +117,5 @@
                 <img class="classement classement00" src="../images/casques/etoiles.gif" alt="Classement 0 sur 5">
             </article>
         </section>
-        <footer>
-            <p>&copy;2018 Nolark - Créé par <a href="mailto:jose.gil@ac-nice.fr">José GIL</a><p>
-        </footer>
     </body>
 </html>

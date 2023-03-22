@@ -1,9 +1,5 @@
 <?php
 
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
- */
 
 $pages = array("route.html", "cross.html", "piste.html", "enfants.html","nous-contacter.html");
 $noms = array("Route", "Cross", "Piste", "Enfants", "Nous contacter");

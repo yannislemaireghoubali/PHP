@@ -20,7 +20,7 @@
     </head>
     <body>
         <?php
-            include('../includes/lienspages.inc.php');
+            include('../includes/header.html.inc.php');
         ?>
         <section id="carto">
             <h1>Nous localiser :</h1>

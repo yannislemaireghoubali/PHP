@@ -18,7 +18,7 @@
     </head>
     <body>
         <?php
-            include('../includes/lienspages.inc.php');
+            include('../includes/header.html.inc.php');
         ?>
         <section id="casques">
             <!-- - - - - - - - - - - - - - LIGNE N°1 - - - - - - - - - - - - -->

@@ -82,5 +82,9 @@
             <article id="milieu"><a href="pages/cross.html">Cross</a></article>
             <article id="droite"><a href="pages/piste.html">Piste</a></article>
         </section>
+        <?php
+        $date = date('d-m-y h:i:s');
+        echo "page chargée le " + $date;
+        ?>
     </body>
 </html>
